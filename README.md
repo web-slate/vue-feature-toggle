@@ -1,7 +1,11 @@
 # vue-feature-toggle
 
+
 ## Project setup
 ```
+npm install -g @vue/cli
+npm install -g @vue/cli-service-global
+vue create vue-feature-toggle
 npm install
 ```
 
