@@ -9,11 +9,16 @@
 export default {
   name: "Field",
   props: {
-    label: String,
+    label: {
+      default: '',
+      type: String,
+      required: false,
+    },
     id: String,
     type: {
       defaut: 'text',
       type: String,
+      required: false,
     },
   },
 };
