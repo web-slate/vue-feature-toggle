@@ -12,7 +12,7 @@ export default {
     label: String,
     id: String,
     type: {
-      defaut: "text",
+      defaut: 'text',
       type: String,
     },
   },
