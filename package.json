@@ -5,7 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "serve:us": "COUNTRY='US' npm run serve",
+    "serve:sg": "COUNTRY='SG' npm run serve",
+    "serve:in": "COUNTRY='IN' npm run serve",
     "build": "vue-cli-service build",
+    "build:us": "COUNTRY='US' npm run build",
+    "build:sg": "COUNTRY='SG' npm run build",
+    "build:in": "COUNTRY='IN' npm run build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
