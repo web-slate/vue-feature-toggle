@@ -6,11 +6,17 @@
 
 <script>
 import RegisterForm from "./modules/RegisterForm/RegisterForm.vue";
+import featureContext from "./context";
 
 export default {
   name: "App",
   components: {
     RegisterForm,
+  },
+  provide() {
+    return {
+      featureContext,
+    };
   },
 };
 </script>
